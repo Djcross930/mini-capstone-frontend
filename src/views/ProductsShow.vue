@@ -24,6 +24,7 @@ export default {
     <p> {{  product.price  }}</p>
     <p> {{  product.description  }} </p>
     <button>Add to Cart</button>
-    <!-- <a v-bind:href="`/products/${products.id}/edit`">Edit</a> -->
+    <br />
+    <a v-bind:href="`/products/${product.id}/edit`">Edit</a>
   </div>
 </template>

@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import ProductsView from '../views/ProductsView.vue'
 import ProductsShow from "../views/ProductsShow.vue"
 import ProductsEdit from "../views/ProductsEdit.vue"
+import ProductsNew from "../views/ProductsNew.vue"
+import 
 const routes = [
   {
     path: '/',
@@ -31,6 +33,11 @@ const routes = [
     path: '/products/:id/edit',
     name: 'products-edit',
     component: ProductsEdit
+  },
+  {
+    path: '/products/new',
+    name: 'products-new',
+    component: ProductsNew
   }
 ]
 

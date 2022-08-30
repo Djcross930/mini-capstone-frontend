@@ -24,7 +24,7 @@ export default {
   <template>
   <div class="home">
     <div v-for="product in products">
-      <a v-bind:href="`/products/${product.id}`"> {{  product.name  }} Go somewhere</a>
+      <a v-bind:href="`/products/${product.id}`"> {{  product.name  }}</a>
       <p> {{  product.price  }} </p>
       <br />
     </div>
